@@ -15,11 +15,11 @@ const todoSchema=new mongoose.Schema({
     },
     subTodos:[
         {
-            type:mongoose.Scehma.Types.ObjectId,
+            type:mongoose.Schema.Types.ObjectId,
             ref:"SubTodo"
         }
     ] //array of subtodos
-    
+
     
 },{timestamps:true})
 
